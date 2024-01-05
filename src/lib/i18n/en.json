@@ -1,0 +1,14 @@
+{
+  "action.addToCalendar": "ADD TO CALENDAR",
+  "action.close": "CLOSE",
+  "action.learnMore": "LEARN MORE",
+  "action.panelDiscussion": "PANEL DISCUSSION",
+
+  "message.cardDescription": "This is a heading H5, with a 96 max character. Ideal character number is 76. Space for 4 lines. ",
+  "message.speakers" : "SPEAKERS",
+  
+  "cardDetails": {
+    "message.title": "How Generative AI will Transform Planning and Decision-Making",
+    "message.desc": "Join this keynote session to learn why Adidas decided to embark on this. the challenges and lessons learned, and the quantifiable business value it’s expecting to unlock. Join this keynote session to learn why Adidas decided to embark on this transformation journey, the challenges and lessons learned, and the quantifiable."
+  }
+}

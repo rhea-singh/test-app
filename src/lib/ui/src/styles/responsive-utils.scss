@@ -1,0 +1,33 @@
+//Breakpoints for different screens
+$mobile: 320px;
+$tablet: 600px;
+$desktop: 1280px;
+$desktop-large: 1920px;
+
+// Mixin for mobile screens
+@mixin for-mobile {
+  @media screen and (min-width: #{$mobile}) and (max-width: #{$tablet - 1}) {
+    @content;
+  }
+}
+
+// Mixin for tablet screens
+@mixin for-tablet {
+  @media screen and (min-width: #{$tablet}) and (max-width: #{$desktop - 1}) {
+    @content;
+  }
+}
+
+// Mixin for desktop screens
+@mixin for-desktop {
+  @media screen and (min-width: #{$desktop}) and (max-width: #{$desktop-large - 1}) {
+    @content;
+  }
+}
+
+// Mixin for large desktop screens
+@mixin for-large-desktop {
+  @media screen and (min-width: #{$desktop-large}) {
+    @content;
+  }
+}
